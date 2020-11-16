@@ -1,0 +1,1 @@
+curl -d "storeNumber=value1&regionNumber=value2" -H "Authorization: OAuth <ACCESS_TOKEN>" -X 'PUT' -H "Content-Type: application/json" -d "[{"art1": "value1"}, {"art2": "value2"}, {"artN": "valueN"}]" mymobileshop.ru/basket/v2
